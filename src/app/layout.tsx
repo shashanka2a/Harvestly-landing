@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   description: "Harvestly connects your community directly with a trusted network of local farmers. Get truly fresh produce and support a fair food system.",
   keywords: ["local farmers", "fresh produce", "community supported agriculture", "farm to table", "sustainable food"],
   authors: [{ name: "Harvestly" }],
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Harvestly - Fresh from the farm. Direct to your community.",
     description: "Harvestly connects your community directly with a trusted network of local farmers. Get truly fresh produce and support a fair food system.",

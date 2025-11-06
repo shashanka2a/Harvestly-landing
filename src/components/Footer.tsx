@@ -38,15 +38,23 @@ export function Footer() {
           
           {/* Column 1: Logo & Copyright */}
           <div>
-            <h3 
-              style={{ 
-                fontFamily: 'Lora, serif',
-                color: 'white'
-              }}
-              className="text-3xl mb-4"
-            >
-              Harvestly
-            </h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/logo.svg" 
+                alt="Harvestly Logo" 
+                className="w-8 h-8"
+                style={{ filter: 'brightness(0) invert(1)' }}
+              />
+              <h3 
+                style={{ 
+                  fontFamily: 'var(--font-lora), Lora, serif',
+                  color: 'white'
+                }}
+                className="text-3xl"
+              >
+                Harvestly
+              </h3>
+            </div>
             <p 
               style={{ 
                 fontFamily: 'Manrope, sans-serif',
